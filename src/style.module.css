@@ -1,0 +1,25 @@
+.slide-enter,
+.slide-exit {
+  transition: transform 300ms ease-out;
+}
+
+.slide-enter {
+  transform: translateX(100%);
+}
+
+.slide-enter.slide-enter-active {
+  transform: translateX(0%);
+}
+
+/* Hide previous page */
+.slide-exit {
+  opacity: 0;
+}
+
+.slide-exit-active {
+  transform: translateX(-100%);
+}
+
+.carousel.slider-wrapper {
+  width: 45%;
+}
