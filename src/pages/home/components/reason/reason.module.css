@@ -1,0 +1,169 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 79.5px;
+    z-index: 20;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.box_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #362355;
+}
+
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 10px;
+    background: #FFFFFF;
+    border: 2px solid #F2EBFD;
+    border-radius: 8px;
+    width: 48%;
+}
+
+.wrapper_card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 16px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 10px;
+
+    background-color: #EDE3FF;
+    border-radius: 4px;
+}
+
+.content_card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+}
+
+.title_card {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #362355
+}
+
+.text_card {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #9387A8;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.background_why_learn {
+    position: absolute;
+    z-index: 10;
+}
+
+.cards_hidden {
+    display: none;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .wrapper_cards {
+        width: 100%;
+    }
+
+    .wrapper {
+        margin: 0 16px;
+    }
+
+    .cards {
+        display: none;
+    }
+
+    .img_why_learn {
+        width: 100%;
+    }
+
+    .wrapper_cards_hidden {
+        width: 100%;
+    }
+
+    .cards_hidden {
+        display: block;
+        width: 100%;
+    }
+
+    .card {
+        width: 300px;
+        height: 196px;
+    }
+
+    .wrapper_card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:378px) {
+    .title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}

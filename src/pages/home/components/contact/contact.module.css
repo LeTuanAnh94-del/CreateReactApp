@@ -1,0 +1,122 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 80px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.about_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+}
+
+.content_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.title_contact {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.text_contact {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.buttons_contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+.button_contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 4px;
+    isolation: isolate;
+    background-color: #9453FF;
+    border-radius: 4px;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1044px) {
+    .buttons_contact {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 932px) {
+    .contact {
+        flex-direction: column-reverse;
+        gap: 64px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact {
+        margin: 0px;
+    }
+
+    .banner_contact {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 0 16px;
+    }
+
+}
+
+@media screen and (max-width: 379px) {
+
+    .about_contact {
+        gap: 24px;
+    }
+
+    .title_contact {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .text_contact {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .buttons_contact {
+        gap: 12px;
+    }
+
+    .button_contact {
+        padding: 8px 24px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
