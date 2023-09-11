@@ -2,7 +2,7 @@ import styles from './journey.module.css';
 
 import patternLeft from '../../../../assets/images/patternLeft.png';
 import patternRight from '../../../../assets/images/patternRight.png';
-import bannerHome from '../../../../assets/images/bannerHome.svg';
+// import bannerHome from '../../../../assets/images/bannerHome.svg';
 
 function Journey() {
     return (
@@ -17,7 +17,7 @@ function Journey() {
                 </div>
                 <button className={styles.button_test}>Test Now</button>
             </div>
-            <img src={bannerHome} alt="banner_home" className={styles.banner_home} />
+            {/* <img src={bannerHome} alt="banner_home" className={styles.banner_home} /> */}
             <div className={styles.pattern}>
                 <img src={patternLeft} alt="pattern_left" className={styles.pattern_left} />
                 <img src={patternRight} alt="pattern_right" className={styles.pattern_right} />

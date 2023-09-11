@@ -12,11 +12,11 @@ import iconIns from '../../../../assets/icons/iconInstagramShare.svg';
 import iconTiktok from '../../../../assets/icons/iconTiktokShare.svg';
 import iconYoutube from '../../../../assets/icons/iconYoutubeShare.svg';
 import iconViews from '../../../../assets/icons/iconViews.svg';
-import avtUserPost from '../../../../assets/images/avtUserPost.svg';
-import avtCusPost from '../../../../assets/images/avtCusPost.svg';
-import imgBlogDetail from '../../../../assets/images/imgBlogDetail.svg';
-import imgBlogDetailFooter from '../../../../assets/images/imgBlogDetailFooter.svg';
-import imgPreviewBlog from '../../../../assets/images/imgPreviewBlog.svg';
+// import avtUserPost from '../../../../assets/images/avtUserPost.svg';
+// import avtCusPost from '../../../../assets/images/avtCusPost.svg';
+// import imgBlogDetail from '../../../../assets/images/imgBlogDetail.svg';
+// import imgBlogDetailFooter from '../../../../assets/images/imgBlogDetailFooter.svg';
+// import imgPreviewBlog from '../../../../assets/images/imgPreviewBlog.svg';
 
 function BlogDetail() {
     return (
@@ -37,7 +37,7 @@ function BlogDetail() {
                             <div className={styles.list_posts}>
                                 {popularPostsData.map((popularPost) => (
                                     <div className={styles.item_post} key={popularPost.id}>
-                                        <img src={avtUserPost} alt="avt_user_post" />
+                                        {/* <img src={avtUserPost} alt="avt_user_post" /> */}
                                         <div className={styles.content_post}>
                                             <p className={styles.title_post}>{popularPost.title}</p>
                                             <p className={styles.user_post}>by Varun Bhagat / April 4, 2022</p>
@@ -66,7 +66,7 @@ function BlogDetail() {
                                 </p>
                                 <div className={styles.info_header_content}>
                                     <div className={styles.info_customer_post}>
-                                        <img src={avtCusPost} alt="avt_cus_post" />
+                                        {/* <img src={avtCusPost} alt="avt_cus_post" /> */}
                                         <p className={styles.name_cus}>Owen Christ</p>
                                     </div>
                                     <div className={styles.date_post}>
@@ -83,7 +83,7 @@ function BlogDetail() {
                                     </div>
                                 </div>
                             </div>
-                            <img src={imgBlogDetail} alt="img_blog_detail" className={styles.img_blog_detail} />
+                            {/* <img src={imgBlogDetail} alt="img_blog_detail" className={styles.img_blog_detail} /> */}
                             <div className={styles.paragraphs_content}>
                                 <div className={styles.paragraph}>
                                     <p className={styles.text_paragraph}>
@@ -138,7 +138,7 @@ function BlogDetail() {
                                         consequat nibh gravida at sit dignissim.
                                     </p>
                                     <img
-                                        src={imgBlogDetailFooter}
+                                        // src={imgBlogDetailFooter}
                                         alt="img_blog_detail_footer"
                                         className={styles.img_blog_detail}
                                     />
@@ -202,7 +202,7 @@ function BlogDetail() {
                                 <div className={styles.list_posts}>
                                     {popularPostsData.map((popularPost) => (
                                         <div className={styles.item_post} key={popularPost.id}>
-                                            <img src={avtUserPost} alt="avt_user_post" />
+                                            {/* <img src={avtUserPost} alt="avt_user_post" /> */}
                                             <div className={styles.content_post}>
                                                 <p className={styles.title_post}>{popularPost.title}</p>
                                                 <p className={styles.user_post}>by Varun Bhagat / April 4, 2022</p>
@@ -229,7 +229,7 @@ function BlogDetail() {
                                 {relatedBlogs.map((blog) => (
                                     <div className={styles.item_blog} key={blog.id}>
                                         <img
-                                            src={imgPreviewBlog}
+                                            // src={imgPreviewBlog}
                                             alt="img_preview_blog"
                                             className={styles.img_preview_blog}
                                         />

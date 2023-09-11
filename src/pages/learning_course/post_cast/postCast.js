@@ -1,8 +1,8 @@
 import styles from './postCast.module.css';
 import categories from '../data/categoriesData';
 import postCastData from '../data/postCastData';
-import bannerIntroducePostCast from '../../../assets/images/bannerIntroducePostCast.svg';
-import imgPreviewPostCast from '../../../assets/images/imgPreviewPostCast.svg';
+// import bannerIntroducePostCast from '../../../assets/images/bannerIntroducePostCast.svg';
+// import imgPreviewPostCast from '../../../assets/images/imgPreviewPostCast.svg';
 import iconSearch from '../../../assets/icons/iconSearch.svg';
 import iconCategory from '../../../assets/icons/iconCategory.svg';
 import iconBack from '../../../assets/icons/iconBack.svg';
@@ -23,7 +23,7 @@ function PostCast() {
                             eu.Dignissim tellus, Tellus elementum enim faucibus morbi enim fusce:
                         </p>
                     </div>
-                    <img src={bannerIntroducePostCast} alt="banner_introduce_post_cast" />
+                    {/* <img src={bannerIntroducePostCast} alt="banner_introduce_post_cast" /> */}
                 </div>
             </div>
             <div className={styles.body_container}>
@@ -54,7 +54,7 @@ function PostCast() {
                             {postCastData.map((postCast) => (
                                 <div className={styles.item_post_cast} key={postCast.id}>
                                     <img
-                                        src={imgPreviewPostCast}
+                                        // src={imgPreviewPostCast}
                                         alt="img_preview_post_cast"
                                         className={styles.img_preview_post_cast}
                                     />

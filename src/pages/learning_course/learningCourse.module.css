@@ -6,7 +6,7 @@
 }
 
 .introduce {
-    background-image: url(../../assets/images/backgroundLearningCourse.svg);
+    /* background-image: url(../../assets/images/backgroundLearningCourse.svg); */
     background-size: cover;
     background-repeat: no-repeat;
 }

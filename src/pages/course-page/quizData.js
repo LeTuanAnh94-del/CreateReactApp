@@ -1,11 +1,11 @@
-import imgQuiz1 from '../../assets/images/imgQuiz1.svg';
-import imgQuiz2 from '../../assets/images/imgQuiz2.svg';
-import imgQuiz3 from '../../assets/images/imgQuiz3.svg';
+// import imgQuiz1 from '../../assets/images/imgQuiz1.svg';
+// import imgQuiz2 from '../../assets/images/imgQuiz2.svg';
+// import imgQuiz3 from '../../assets/images/imgQuiz3.svg';
 
 const questionsData = [
     {
         id: 1,
-        img: imgQuiz1,
+        // img: imgQuiz1,
         question: 'Look at the picture and choose the correct answer: “Chào...”',
         answers: {
             answer_a: 'Chào anh',
@@ -22,7 +22,7 @@ const questionsData = [
     },
     {
         id: 2,
-        img: imgQuiz2,
+        // img: imgQuiz2,
         question: 'What is this country?',
         answers: {
             answer_a: 'Mỹ',
@@ -56,7 +56,7 @@ const questionsData = [
     },
     {
         id: 4,
-        img: imgQuiz3,
+        // img: imgQuiz3,
         question: 'Look at the picture and choose the correct answer: “"What are they doing?"',
         answers: {
             answer_a: 'Họ đang đọc sách',

@@ -1,12 +1,12 @@
 import styles from './contact.module.css';
-import bannerContact from '../../../../assets/images/bannerContact.svg';
+// import bannerContact from '../../../../assets/images/bannerContact.svg';
 import iconFacebook from '../../../../assets/icons/iconFacebook.svg';
 import iconDiscord from '../../../../assets/icons/iconDiscord.svg';
 
 function Contact() {
     return (
         <section className={styles.contact}>
-            <img src={bannerContact} alt="banner_contact" className={styles.banner_contact} />
+            {/* <img src={bannerContact} alt="banner_contact" className={styles.banner_contact} /> */}
             <div className={styles.about_contact}>
                 <div className={styles.content_contact}>
                     <p className={styles.title_contact}>

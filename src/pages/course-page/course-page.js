@@ -2,10 +2,10 @@ import styles from './course-page.module.css';
 import questionsData from './quizData';
 import lessonData from './lessonData';
 
-import logo from '../../assets/images/logo.svg';
-import circleProgressBar from '../../assets/images/circleProgressBar.svg';
-import avt from '../../assets/images/avt.svg';
-import avtAsk from '../../assets/images/avtAsk.svg';
+// import logo from '../../assets/images/logo.svg';
+// import circleProgressBar from '../../assets/images/circleProgressBar.svg';
+// import avt from '../../assets/images/avt.svg';
+// import avtAsk from '../../assets/images/avtAsk.svg';
 
 import trackIcon from '../../assets/icons/trackIcons.svg';
 import tickIcon from '../../assets/icons/tickIcon.svg';
@@ -134,17 +134,17 @@ function CoursePage() {
         <div className={styles.container}>
             <div className={styles.header}>
                 <div className={styles.wrapper_logo_course_title}>
-                    <img src={logo} alt="logo" className={styles.logo} />
+                    {/* <img src={logo} alt="logo" className={styles.logo} /> */}
                     <img src={iconMenu} alt="icon_menu" className={styles.icon_menu} onClick={handleClickMenu} />
                     <div className={styles.line}></div>
                     <p className={styles.course_title}>Course 1: Master Your Pronunciation</p>
                 </div>
                 <div className={styles.wrapper_progress_bar_avt}>
                     <div className={styles.progress_bar}>
-                        <img src={circleProgressBar} alt="circle_progress_bar" />
+                        {/* <img src={circleProgressBar} alt="circle_progress_bar" /> */}
                         <p className={styles.completed_msg}>Course Progress</p>
                     </div>
-                    <img src={avt} alt="avt" />
+                    {/* <img src={avt} alt="avt" /> */}
                 </div>
             </div>
             <div className={styles.tracks_content_wrapper}>
@@ -486,7 +486,7 @@ function CoursePage() {
                                     </div>
                                     <div className={styles.questions_wrapper}>
                                         <div className={styles.question_item_wrapper}>
-                                            <img src={avtAsk} alt="avt_ask" className={styles.avt_ask} />
+                                            {/* <img src={avtAsk} alt="avt_ask" className={styles.avt_ask} /> */}
                                             <div className={styles.info_question}>
                                                 <p className={styles.name_person_ask}>
                                                     Tùng Nguyễn - Lecture 10 - 1 month ago
@@ -505,7 +505,7 @@ function CoursePage() {
                                             </div>
                                         </div>
                                         <div className={styles.question_item_wrapper}>
-                                            <img src={avtAsk} alt="avt_ask" className={styles.avt_ask} />
+                                            {/* <img src={avtAsk} alt="avt_ask" className={styles.avt_ask} /> */}
                                             <div className={styles.info_question}>
                                                 <p className={styles.name_person_ask}>
                                                     Tùng Nguyễn - Lecture 10 - 1 month ago
@@ -524,7 +524,7 @@ function CoursePage() {
                                             </div>
                                         </div>
                                         <div className={styles.question_item_wrapper}>
-                                            <img src={avtAsk} alt="avt_ask" className={styles.avt_ask} />
+                                            {/* <img src={avtAsk} alt="avt_ask" className={styles.avt_ask} /> */}
                                             <div className={styles.info_question}>
                                                 <p className={styles.name_person_ask}>
                                                     Tùng Nguyễn - Lecture 10 - 1 month ago
@@ -543,7 +543,7 @@ function CoursePage() {
                                             </div>
                                         </div>
                                         <div className={styles.question_item_wrapper}>
-                                            <img src={avtAsk} alt="avt_ask" className={styles.avt_ask} />
+                                            {/* <img src={avtAsk} alt="avt_ask" className={styles.avt_ask} /> */}
                                             <div className={styles.info_question}>
                                                 <p className={styles.name_person_ask}>
                                                     Tùng Nguyễn - Lecture 10 - 1 month ago
@@ -562,7 +562,7 @@ function CoursePage() {
                                             </div>
                                         </div>
                                         <div className={styles.question_item_wrapper}>
-                                            <img src={avtAsk} alt="avt_ask" className={styles.avt_ask} />
+                                            {/* <img src={avtAsk} alt="avt_ask" className={styles.avt_ask} /> */}
                                             <div className={styles.info_question}>
                                                 <p className={styles.name_person_ask}>
                                                     Tùng Nguyễn - Lecture 10 - 1 month ago
@@ -581,7 +581,7 @@ function CoursePage() {
                                             </div>
                                         </div>
                                         <div className={styles.question_item_wrapper}>
-                                            <img src={avtAsk} alt="avt_ask" className={styles.avt_ask} />
+                                            {/* <img src={avtAsk} alt="avt_ask" className={styles.avt_ask} /> */}
                                             <div className={styles.info_question}>
                                                 <p className={styles.name_person_ask}>
                                                     Tùng Nguyễn - Lecture 10 - 1 month ago

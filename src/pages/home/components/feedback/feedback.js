@@ -2,9 +2,9 @@ import styles from './feedback.module.css';
 
 import iconQuotes from '../../../../assets/icons/iconQuotes.svg';
 import iconStar from '../../../../assets/icons/iconStar.svg';
-import avtUserFeedback1 from '../../../../assets/images/avtUserFeedback1.svg';
-import avtUserFeedback2 from '../../../../assets/images/avtUserFeedback2.svg';
-import avtUserFeedback23 from '../../../../assets/images/avtUserFeedback3.svg';
+// import avtUserFeedback1 from '../../../../assets/images/avtUserFeedback1.svg';
+// import avtUserFeedback2 from '../../../../assets/images/avtUserFeedback2.svg';
+// import avtUserFeedback23 from '../../../../assets/images/avtUserFeedback3.svg';
 import iconLongDot from '../../../../assets/icons/iconLongDot.svg';
 import iconShortDot from '../../../../assets/icons/iconShortDot.svg';
 import Slider from 'react-slick';
@@ -40,7 +40,7 @@ function Feedback() {
                             recommended!
                         </p>
                         <div className={styles.user}>
-                            <img src={avtUserFeedback1} alt="avt_user_feedback" />
+                            {/* <img src={avtUserFeedback1} alt="avt_user_feedback" /> */}
                             <div className={styles.info_user}>
                                 <p className={styles.name_user}>Tariq</p>
                                 <p className={styles.job_user}>Master Your Pronunciation Course</p>
@@ -64,7 +64,7 @@ function Feedback() {
                             and always having something to ask or say!
                         </p>
                         <div className={styles.user}>
-                            <img src={avtUserFeedback2} alt="avt_user_feedback" />
+                            {/* <img src={avtUserFeedback2} alt="avt_user_feedback" /> */}
                             <div className={styles.info_user}>
                                 <p className={styles.name_user}>Konrad S.</p>
                                 <p className={styles.job_user}>Master Your Pronunciation Course</p>
@@ -88,7 +88,7 @@ function Feedback() {
                             beginner material and I'm definitely progressing faster than I would have expected.
                         </p>
                         <div className={styles.user}>
-                            <img src={avtUserFeedback23} alt="img_user_feedback" />
+                            {/* <img src={avtUserFeedback23} alt="img_user_feedback" /> */}
                             <div className={styles.info_user}>
                                 <p className={styles.name_user}>Gina H.</p>
                                 <p className={styles.job_user}>Master Your Pronunciation Course</p>
@@ -117,7 +117,7 @@ function Feedback() {
                                     pronunciations. Highly recommended!
                                 </p>
                                 <div className={styles.user}>
-                                    <img src={avtUserFeedback1} alt="avt_user_feedback" />
+                                    {/* <img src={avtUserFeedback1} alt="avt_user_feedback" /> */}
                                     <div className={styles.info_user}>
                                         <p className={styles.name_user}>Tariq</p>
                                         <p className={styles.job_user}>Master Your Pronunciation Course</p>
@@ -141,7 +141,7 @@ function Feedback() {
                                     patience, high energy, and always having something to ask or say!
                                 </p>
                                 <div className={styles.user}>
-                                    <img src={avtUserFeedback2} alt="avt_user_feedback" />
+                                    {/* <img src={avtUserFeedback2} alt="avt_user_feedback" /> */}
                                     <div className={styles.info_user}>
                                         <p className={styles.name_user}>Konrad S.</p>
                                         <p className={styles.job_user}>Master Your Pronunciation Course</p>
@@ -166,7 +166,7 @@ function Feedback() {
                                     have expected.
                                 </p>
                                 <div className={styles.user}>
-                                    <img src={avtUserFeedback23} alt="img_user_feedback" />
+                                    {/* <img src={avtUserFeedback23} alt="img_user_feedback" /> */}
                                     <div className={styles.info_user}>
                                         <p className={styles.name_user}>Gina H.</p>
                                         <p className={styles.job_user}>Master Your Pronunciation Course</p>

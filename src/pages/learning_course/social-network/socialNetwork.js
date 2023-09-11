@@ -1,9 +1,9 @@
 import styles from './socialNetWork.module.css';
-import bannerIntroduceSocialNetwork from '../../../assets/images/bannerIntroduceSocialNetwork.svg';
-import bannerFacebook from '../../../assets/images/bannerFacebook.svg';
-import bannerIns from '../../../assets/images/bannerIns.svg';
-import bannerYoutube from '../../../assets/images/bannerYoutube.svg';
-import bannerTiktok from '../../../assets/images/bannerTiktok.svg';
+// import bannerIntroduceSocialNetwork from '../../../assets/images/bannerIntroduceSocialNetwork.svg';
+// import bannerFacebook from '../../../assets/images/bannerFacebook.svg';
+// import bannerIns from '../../../assets/images/bannerIns.svg';
+// import bannerYoutube from '../../../assets/images/bannerYoutube.svg';
+// import bannerTiktok from '../../../assets/images/bannerTiktok.svg';
 
 function SocialNetwork() {
     return (
@@ -18,7 +18,7 @@ function SocialNetwork() {
                             eu.Dignissim tellus, Tellus elementum enim faucibus morbi enim fusce:
                         </p>
                     </div>
-                    <img src={bannerIntroduceSocialNetwork} alt="banner_introduce_social_network" />
+                    {/* <img src={bannerIntroduceSocialNetwork} alt="banner_introduce_social_network" /> */}
                 </div>
             </div>
             <div className={styles.main}>
@@ -27,25 +27,25 @@ function SocialNetwork() {
                     <div className={styles.inner_box}>
                         <div className={styles.wrapper_box_item}>
                             <div className={styles.wrapper_banner}>
-                                <img src={bannerFacebook} alt="banner_facebook" className={styles.banner_box} />
+                                {/* <img src={bannerFacebook} alt="banner_facebook" className={styles.banner_box} /> */}
                             </div>
                             <p className={styles.title_box}>Podcast</p>
                         </div>
                         <div className={styles.wrapper_box_item}>
                             <div className={styles.wrapper_banner}>
-                                <img src={bannerIns} alt="banner_ins" className={styles.banner_box} />
+                                {/* <img src={bannerIns} alt="banner_ins" className={styles.banner_box} /> */}
                             </div>
                             <p className={styles.title_box}>Instagram</p>
                         </div>
                         <div className={styles.wrapper_box_item}>
                             <div className={styles.wrapper_banner}>
-                                <img src={bannerYoutube} alt="banner_youtube" className={styles.banner_box} />
+                                {/* <img src={bannerYoutube} alt="banner_youtube" className={styles.banner_box} /> */}
                             </div>
                             <p className={styles.title_box}>Youtube</p>
                         </div>
                         <div className={styles.wrapper_box_item}>
                             <div className={styles.wrapper_banner}>
-                                <img src={bannerTiktok} alt="banner_tiktok" className={styles.banner_box} />
+                                {/* <img src={bannerTiktok} alt="banner_tiktok" className={styles.banner_box} /> */}
                             </div>
                             <p className={styles.title_box}>Tiktok</p>
                         </div>

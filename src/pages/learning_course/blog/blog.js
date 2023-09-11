@@ -4,9 +4,9 @@ import styles from './blog.module.css';
 import popularPostsData from '../data/popularPostsData';
 import categories from '../data/categoriesData';
 import blogData from '../data/blogData';
-import bannerBlog from '../../../assets/images/imageBlog.svg';
-import avtUserPost from '../../../assets/images/avtUserPost.svg';
-import imgPreviewBlog from '../../../assets/images/imgPreviewBlog.svg';
+// import bannerBlog from '../../../assets/images/imageBlog.svg';
+// import avtUserPost from '../../../assets/images/avtUserPost.svg';
+// import imgPreviewBlog from '../../../assets/images/imgPreviewBlog.svg';
 import iconSearch from '../../../assets/icons/iconSearch.svg';
 import iconCategory from '../../../assets/icons/iconCategory.svg';
 import iconCalendar from '../../../assets/icons/iconCalendar.svg';
@@ -26,7 +26,7 @@ function Blog() {
                         tellus, Tellus elementum enim faucibus morbi enim fusce:
                     </p>
                 </div>
-                <img src={bannerBlog} alt="banner_blog" />
+                {/* <img src={bannerBlog} alt="banner_blog" /> */}
             </div>
             <div className={styles.body_blog}>
                 <div className={styles.wrapper_body}>
@@ -40,7 +40,7 @@ function Blog() {
                             <div className={styles.list_posts}>
                                 {popularPostsData.map((popularPost) => (
                                     <div className={styles.item_post} key={popularPost.id}>
-                                        <img src={avtUserPost} alt="avt_user_post" />
+                                        {/* <img src={avtUserPost} alt="avt_user_post" /> */}
                                         <div className={styles.content_post}>
                                             <p className={styles.title_post}>{popularPost.title}</p>
                                             <p className={styles.user_post}>by Varun Bhagat / April 4, 2022</p>
@@ -66,7 +66,7 @@ function Blog() {
                             {blogData.map((blog) => (
                                 <div className={styles.item_blog} key={blog.id}>
                                     <img
-                                        src={imgPreviewBlog}
+                                        // src={imgPreviewBlog}
                                         alt="img_preview_blog"
                                         className={styles.img_preview_blog}
                                     />
