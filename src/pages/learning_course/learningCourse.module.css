@@ -1,0 +1,128 @@
+.container {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+.introduce {
+    background-image: url(../../assets/images/backgroundLearningCourse.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inner_introduce {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 22px 80px;
+}
+
+.content_introduce {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+}
+
+.title_introduce {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #9453FF;
+}
+
+.paragraph_introduce {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.wrapper_box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 64px 80px 160px 80px;
+    justify-content: center;
+}
+
+.inner_box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 24px;
+    justify-content: center;
+}
+
+.wrapper_box_item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.wrapper_banner {
+    display: flex;
+    padding: 64px 80px;
+    background-color: #EDE3FF;
+    border-radius: 8px;
+}
+
+.banner_box {
+    width: 160px;
+    height: 160px;
+}
+
+.title_box {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #362355;
+}
+
+@media screen and (max-width:768px) {
+    .inner_introduce {
+        flex-direction: column;
+        padding: 32px;
+        gap: 32px;
+    }
+
+    .title_introduce {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .paragraph_introduce {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .wrapper_box {
+        margin: 64px 48px 88px 48px;
+    }
+
+    .inner_box {
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .inner_introduce {
+        padding: 40px 16px 72px 16px;
+        gap: 40px;
+    }
+
+    .title_introduce {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .paragraph_introduce {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .wrapper_box {
+        padding: 64px 16px;
+    }
+}
