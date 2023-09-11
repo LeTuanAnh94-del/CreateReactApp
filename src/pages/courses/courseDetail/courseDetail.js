@@ -17,15 +17,11 @@ import iconSubject from '../../../assets/icons/iconSubject.svg';
 import iconLanguage from '../../../assets/icons/iconLanguage.svg';
 import iconBook from '../../../assets/icons/iconBook.svg';
 import iconStarFeedback from '../../../assets/icons/iconStarFeedback.svg';
-// import avtTeacher from '../../../assets/images/avtTeacher.svg';
-// import imgPreviewCourseDetail from '../../../assets/images/imgPreviewCourseDetail.svg';
-// import avtMentor from '../../../assets/images/avtMentor.svg';
-// import avtStudent1 from '../../../assets/images/avtStudent1.svg';
-// import avtStudent2 from '../../../assets/images/avtStudent2.svg';
-// import avtStudent3 from '../../../assets/images/avtStudent3.svg';
-// import avtStudent4 from '../../../assets/images/avtStudent4.svg';
-// import avtStudent5 from '../../../assets/images/avtStudent5.svg';
-// import buttonHeart from '../../../assets/images/buttonHeart.svg';
+import avtTeacher from '../../../assets/images/avtTeacher.png';
+import imgPreviewCourseDetail from '../../../assets/images/imgPreviewCourseDetail.png';
+import avtMentor from '../../../assets/images/avtMentor.png';
+import avtStudent from '../../../assets/images/avtUserFeedback.png';
+import buttonHeart from '../../../assets/images/buttonHeart.png';
 
 function CourseDetail() {
     useEffect(() => {
@@ -46,7 +42,7 @@ function CourseDetail() {
                                 </div>
                             </div>
                             <div className={styles.teacher}>
-                                {/* <img src={avtTeacher} alt="avt_teacher" /> */}
+                                <img src={avtTeacher} alt="avt_teacher" />
                                 <p className={styles.name}>Kathryn Murphy</p>
                             </div>
                             <div className={styles.rate}>
@@ -69,7 +65,7 @@ function CourseDetail() {
                         </div>
                         <div className={styles.card_info_course}>
                             <img
-                                // src={imgPreviewCourseDetail}
+                                src={imgPreviewCourseDetail}
                                 alt="img_preview_course_detail"
                                 className={styles.img_preview}
                             />
@@ -127,7 +123,7 @@ function CourseDetail() {
                                 <button className={styles.button_cart}>Added To Cart</button>
                                 <div className={styles.buy_now}>
                                     <button className={styles.button_buy}>Buy Now</button>
-                                    {/* <img src={buttonHeart} alt="button_heart" className={styles.img_heart} /> */}
+                                    <img src={buttonHeart} alt="button_heart" className={styles.img_heart} />
                                 </div>
                             </div>
                         </div>
@@ -136,12 +132,12 @@ function CourseDetail() {
             </div>
             <div className={styles.card_info_course_hidden}>
                 <div className={styles.wrapper_img_cart}>
-                    {/* <img src={imgPreviewCourseDetail} alt="img_preview_course_detail" className={styles.img_preview} /> */}
+                    <img src={imgPreviewCourseDetail} alt="img_preview_course_detail" className={styles.img_preview} />
                     <div className={styles.cart}>
                         <button className={styles.button_cart}>Added To Cart</button>
                         <div className={styles.buy_now}>
                             <button className={styles.button_buy}>Buy Now</button>
-                            {/* <img src={buttonHeart} alt="button_heart" /> */}
+                            <img src={buttonHeart} alt="button_heart" />
                         </div>
                     </div>
                 </div>
@@ -252,7 +248,7 @@ function CourseDetail() {
                     <button className={styles.button_cart}>Added To Cart</button>
                     <div className={styles.buy_now}>
                         <button className={styles.button_buy}>Buy Now</button>
-                        {/* <img src={buttonHeart} alt="button_heart" /> */}
+                        <img src={buttonHeart} alt="button_heart" />
                     </div>
                 </div>
             </div>
@@ -465,7 +461,7 @@ function CourseDetail() {
                     <p className={styles.instructor_title}>Instructor</p>
                     <div className={styles.instructor_mentor}>
                         <div className={styles.mentor_info}>
-                            {/* <img src={avtMentor} alt="avt_mentor" /> */}
+                            <img src={avtMentor} alt="avt_mentor" />
                             <div className={styles.info_mentor}>
                                 <p className={styles.mentor_name}>Vo Hanh Quyen</p>
                                 <p className={styles.mentor_position}>Head of Levion Traning</p>
@@ -491,7 +487,7 @@ function CourseDetail() {
                     <div className={styles.feedback_detail_row}>
                         <div className={styles.feedback_detail}>
                             <div className={styles.feedback_student}>
-                                {/* <img src={avtStudent1} alt="avt_student" /> */}
+                                <img src={avtStudent} alt="avt_student" />
                                 <div className={styles.info_student}>
                                     <p className={styles.name_student}>Nguyễn Đỗ Sơn Tùng</p>
                                     <p className={styles.time_feedback}>1 week ago</p>
@@ -511,7 +507,7 @@ function CourseDetail() {
                         </div>
                         <div className={styles.feedback_detail}>
                             <div className={styles.feedback_student}>
-                                {/* <img src={avtStudent2} alt="avt_student" /> */}
+                                <img src={avtStudent} alt="avt_student" />
                                 <div className={styles.info_student}>
                                     <p className={styles.name_student}>Nguyễn Đỗ Sơn Tùng</p>
                                     <p className={styles.time_feedback}>1 week ago</p>
@@ -531,7 +527,7 @@ function CourseDetail() {
                         </div>
                         <div className={styles.feedback_detail}>
                             <div className={styles.feedback_student}>
-                                {/* <img src={avtStudent3} alt="avt_student" /> */}
+                                <img src={avtStudent} alt="avt_student" />
                                 <div className={styles.info_student}>
                                     <p className={styles.name_student}>Nguyễn Đỗ Sơn Tùng</p>
                                     <p className={styles.time_feedback}>1 week ago</p>
@@ -551,7 +547,7 @@ function CourseDetail() {
                         </div>
                         <div className={styles.feedback_detail}>
                             <div className={styles.feedback_student}>
-                                {/* <img src={avtStudent4} alt="avt_student" /> */}
+                                <img src={avtStudent} alt="avt_student" />
                                 <div className={styles.info_student}>
                                     <p className={styles.name_student}>Nguyễn Đỗ Sơn Tùng</p>
                                     <p className={styles.time_feedback}>1 week ago</p>
@@ -571,7 +567,7 @@ function CourseDetail() {
                         </div>
                         <div className={styles.feedback_detail}>
                             <div className={styles.feedback_student}>
-                                {/* <img src={avtStudent5} alt="avt_student" /> */}
+                                <img src={avtStudent} alt="avt_student" />
                                 <div className={styles.info_student}>
                                     <p className={styles.name_student}>Nguyễn Đỗ Sơn Tùng</p>
                                     <p className={styles.time_feedback}>1 week ago</p>

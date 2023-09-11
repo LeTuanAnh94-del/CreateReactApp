@@ -1,10 +1,10 @@
 import styles from './aboutUs.module.css';
-// import bannerAboutUs from '../../assets/images/bannerAboutUs.svg';
-// import videoStory from '../../assets/images/videoStory.svg';
-// import bannerVision from '../../assets/images/bannerVision.svg';
-// import bannerMission from '../../assets/images/bannerMission.svg';
-// import bannerAboutStory from '../../assets/images/bannerAboutStory.svg';
-// import bannerTeam from '../../assets/images/bannerTeam.svg';
+import bannerAboutUs from '../../assets/images/bannerAboutUs.png';
+import videoStory from '../../assets/images/videoStory.png';
+import bannerVision from '../../assets/images/bannerVision.png';
+import bannerMission from '../../assets/images/bannerMission.png';
+import bannerAboutStory from '../../assets/images/bannerAboutStory.png';
+import bannerTeam from '../../assets/images/bannerTeam.png';
 import iconVision from '../../assets/icons/iconVision.svg';
 import iconMission from '../../assets/icons/iconMission.svg';
 
@@ -21,7 +21,7 @@ function AboutUs() {
                             eu.Dignissim tellus, Tellus elementum enim faucibus morbi enim fusce:
                         </p>
                     </div>
-                    {/* <img src={bannerAboutUs} alt="banner_about_us" className={styles.banner_about_us} /> */}
+                    <img src={bannerAboutUs} alt="banner_about_us" className={styles.banner_about_us} />
                 </div>
             </div>
             <div className={styles.body}>
@@ -35,11 +35,11 @@ function AboutUs() {
                             viverra tortor eu tempus. Nibh urna ullamcorper venenatis.
                         </p>
                     </div>
-                    {/* <img src={videoStory} alt="video_story" className={styles.img} /> */}
+                    <img src={videoStory} alt="video_story" className={styles.img} />
                 </div>
                 <div className={styles.target}>
                     <div className={styles.inner_vision}>
-                        {/* <img src={bannerVision} alt="banner_vision" className={styles.img} /> */}
+                        <img src={bannerVision} alt="banner_vision" className={styles.img} />
                         <div className={styles.content_target}>
                             <img src={iconVision} alt="icon_vision" className={styles.icon_target} />
                             <div className={styles.wrapper_content_target}>
@@ -64,7 +64,7 @@ function AboutUs() {
                                 </p>
                             </div>
                         </div>
-                        {/* <img src={bannerMission} alt="banner_mission" className={styles.img} /> */}
+                        <img src={bannerMission} alt="banner_mission" className={styles.img} />
                     </div>
                 </div>
                 <div className={styles.about_story}>
@@ -80,7 +80,7 @@ function AboutUs() {
                             Viverra sed adipiscing mi dignissim tortor dignissim molestie.
                         </p>
                     </div>
-                    {/* <img src={bannerAboutStory} alt="banner_about_story" className={styles.banner_about_story} /> */}
+                    <img src={bannerAboutStory} alt="banner_about_story" className={styles.banner_about_story} />
                 </div>
                 <div className={styles.team}>
                     <div className={styles.wrapper_content_team}>
@@ -95,7 +95,7 @@ function AboutUs() {
                             </p>
                         </div>
                     </div>
-                    {/* <img src={bannerTeam} alt="banner_team" className={styles.banner_team} /> */}
+                    <img src={bannerTeam} alt="banner_team" className={styles.banner_team} />
                 </div>
             </div>
         </div>

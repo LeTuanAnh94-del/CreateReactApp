@@ -1,6 +1,6 @@
 import styles from './reason.module.css';
 
-// import imgWhyLearn from '../../../../assets/images/imgWhyLearn.svg';
+import imgWhyLearn from '../../../../assets/images/imgWhyLearn.png';
 import iconReward from '../../../../assets/icons/iconReward.svg';
 
 import React from 'react';
@@ -17,7 +17,7 @@ function Reason() {
     return (
         <section className={styles.wrapper}>
             <div className={styles.content}>
-                {/* <img src={imgWhyLearn} alt="img_why_learn" className={styles.img_why_learn} /> */}
+                <img src={imgWhyLearn} alt="img_why_learn" className={styles.img_why_learn} />
                 <div className={styles.box_content}>
                     <p className={styles.title}>Why learning Vietnamese with Levion?</p>
                     <div className={styles.wrapper_cards}>

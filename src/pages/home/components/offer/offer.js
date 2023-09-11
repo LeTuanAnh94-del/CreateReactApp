@@ -1,8 +1,8 @@
 import styles from './offer.module.css';
 
-// import imgTarget from '../../../../assets/images/imgTarget.svg';
-// import imgEducation from '../../../../assets/images/imgEducation.svg';
-// import imgCommunicationOffer from '../../../../assets/images/imgCommunicationOffer.svg';
+import imgTarget from '../../../../assets/images/imgTarget.png';
+import imgEducation from '../../../../assets/images/imgEducation.png';
+import imgCommunicationOffer from '../../../../assets/images/imgCommunicationOffer.png';
 
 function Offer() {
     return (
@@ -11,25 +11,25 @@ function Offer() {
             <div className={styles.cards}>
                 <div className={styles.card}>
                     <div className={styles.icon}>
-                        {/* <img src={imgTarget} alt="img_target" /> */}
+                        <img src={imgTarget} alt="img_target" />
                     </div>
                     <p className={styles.text}>Test your level and identify your learning journey.</p>
                 </div>
                 <div className={styles.card}>
                     <div className={styles.icon}>
-                        {/* <img src={imgEducation} alt="img_education" /> */}
+                        <img src={imgEducation} alt="img_education" />
                     </div>
                     <p className={styles.text}>Giant supporting resources.</p>
                 </div>
                 <div className={styles.card}>
                     <div className={styles.icon}>
-                        {/* <img src={imgCommunicationOffer} alt="img_communication_offer" /> */}
+                        <img src={imgCommunicationOffer} alt="img_communication_offer" />
                     </div>
                     <p className={styles.text}>Community of Vietnamese-language lovers:</p>
                 </div>
                 <div className={styles.card}>
                     <div className={styles.icon}>
-                        {/* <img src={imgEducation} alt="img_education" /> */}
+                        <img src={imgEducation} alt="img_education" />
                     </div>
                     <p className={styles.text}>Giant supporting resources.</p>
                 </div>

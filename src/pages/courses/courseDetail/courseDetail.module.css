@@ -14,7 +14,7 @@
 }
 
 .container_info_course {
-    /* background: url(../../../assets/images/backgroundCourseDetail.svg); */
+    background: url(../../../assets/images/backgroundCourseDetail.png);
     background-repeat: no-repeat;
     display: flex;
     background-size: cover;

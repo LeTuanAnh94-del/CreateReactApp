@@ -5,11 +5,7 @@ import Reason from './components/reason';
 import Offer from './components/offer';
 import Feedback from './components/feedback';
 import Contact from './components/contact';
-// import backgroundJoin from '../../assets/images/backgroundJoin.svg';
-// import pattern1 from '../../assets/images/pattern1.svg';
-// import pattern2 from '../../assets/images/pattern2.svg';
-// import pattern3 from '../../assets/images/pattern3.svg';
-// import pattern4 from '../../assets/images/pattern4.svg';
+import backgroundJoin from '../../assets/images/backgroundJoin.png';
 
 function home() {
     return (
@@ -22,7 +18,7 @@ function home() {
             <Contact />
             <section className={styles.join}>
                 <div className={styles.wrapper_background_join}>
-                    {/* <img src={backgroundJoin} alt="background_join" className={styles.background_join} /> */}
+                    <img src={backgroundJoin} alt="background_join" className={styles.background_join} />
                 </div>
                 <div className={styles.wrapper_content_join}>
                     <div className={styles.about_join}>
@@ -39,11 +35,6 @@ function home() {
                     </div>
                 </div>
             </section>
-            {/* <img src={pattern1} alt="pattern" className={styles.pattern1} /> */}
-            {/* <img src={pattern2} alt="pattern2" className={styles.pattern2} /> */}
-            {/* <div className={styles.background_why_learn}></div> */}
-            {/* <img src={pattern3} alt="pattern3" className={styles.pattern3} /> */}
-            {/* <img src={pattern4} alt="pattern4" className={styles.pattern4} /> */}
         </div>
     );
 }
