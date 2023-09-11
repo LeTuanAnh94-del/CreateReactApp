@@ -1,0 +1,385 @@
+.about_us {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.introduce {
+    background-image: url('../../assets//images/backgroundAboutUs.svg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content_introduce {
+    display: flex;
+    flex-direction: row;
+    margin: 0 80px 0 107px;
+    align-items: center;
+}
+
+.inner_content {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_introduce {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #9453FF;
+}
+
+.paragraph_introduce {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #554766;
+}
+
+.banner_about_us {
+    margin: 22px 0;
+}
+
+.body {
+    margin-top: 64px;
+    width: 100%;
+    display: flex;
+    gap: 160px;
+    flex-direction: column;
+}
+
+.story {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px;
+    gap: 64px;
+}
+
+.content_story {
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_story {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #362355;
+}
+
+.paragraph_story {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #554766;
+}
+
+.target {
+    display: flex;
+    flex-direction: column;
+    margin: 0 80px;
+}
+
+.inner_vision {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 64px;
+    align-items: center;
+}
+
+.inner_mission {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 64px;
+    align-items: center;
+}
+
+.content_target {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.icon_target {
+    width: 64px;
+    height: 64px;
+}
+
+.wrapper_content_target {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title_target {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #362355;
+}
+
+.paragraph_target {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #362355;
+}
+
+.about_story {
+    display: flex;
+    flex-direction: row;
+    margin: 0 80px;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content_about_story {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_about_story {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #362355;
+}
+
+.paragraph_about_story {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.team {
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.wrapper_content_team {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #F3EFF9;
+    padding: 40px 40px 40px 80px;
+    border-radius: 0px 32px 32px 0px;
+}
+
+.content_team {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title_content_team {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #9453FF;
+}
+
+.line {
+    background-color: #FEDA9C;
+    border-radius: 4px;
+    width: 100px;
+    height: 4px;
+}
+
+.paragraph_content_team {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9387A8;
+}
+
+.banner_team {
+    margin-right: 80px;
+}
+
+@media screen and (max-width:1280px) {
+    .story {
+        flex-direction: column-reverse;
+        gap: 32px;
+    }
+
+    .body {
+        gap: 64px;
+    }
+
+    .target {
+        gap: 64px;
+    }
+
+    .inner_vision {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .inner_mission {
+        flex-direction: column-reverse;
+        gap: 32px;
+    }
+
+    .about_story {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .content_about_story {
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .content_introduce {
+        flex-direction: column;
+        margin: 40px 80px 0 80px;
+    }
+
+    .team {
+        flex-direction: column;
+        margin: 0 80px 64px 80px;
+    }
+
+    .wrapper_content_team {
+        border-radius: 40px;
+    }
+
+    .banner_team {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .content_introduce {
+        margin: 40px 16px 72px 16px;
+        gap: 40px;
+    }
+
+    .banner_about_us {
+        margin: 0;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .story {
+        gap: 16px;
+        margin: 0 16px;
+    }
+
+    .target {
+        margin: 0 16px;
+    }
+
+    .inner_vision {
+        gap: 16px;
+    }
+
+    .content_target {
+        gap: 16px;
+    }
+
+    .inner_mission {
+        gap: 16px;
+    }
+
+    .about_story {
+        margin: 0;
+        padding: 0 16px;
+    }
+
+    .banner_about_story {
+        width: 90%;
+    }
+
+    .team {
+        margin: 0 16px 64px 16px;
+    }
+
+
+    .banner_team {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .title_introduce {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .paragraph_introduce {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .banner_about_us {
+        width: 100%;
+    }
+
+    .title_story {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .paragraph_story {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .icon_target {
+        width: 40px;
+        height: 40px;
+    }
+
+    .title_target {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .paragraph_target {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .title_about_story {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .paragraph_about_story {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .banner_about_story {
+        width: 100%;
+    }
+
+    .wrapper_content_team {
+        padding: 40px 16px 120px;
+    }
+
+    .team {
+        gap: 0;
+    }
+
+    .banner_team {
+        margin-top: -20%;
+    }
+}
